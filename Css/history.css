@@ -1,0 +1,56 @@
+.history-page .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.history-page .container-fluid .bg-image {
+  position: relative;
+  width: 100%;
+}
+
+.history-page .container-fluid .bg-image img {
+  max-width: 100%;
+}
+
+.history-page .cover-text-hist {
+  position: absolute;
+  top: -75px;
+}
+
+.history-page .cover-text-hist h3 {
+  color: white;
+}
+
+.history-page .content-history-area {
+  padding-top: 100px;
+}
+
+.history-page .content-history-area .card-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.history-page .content-history-area .card-area .image {
+  padding-right: 20px;
+}
+
+.history-page .content-history-area .card-area .image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.history-page .content-history-area .card-area .text-area .title h3 {
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.history-page .content-history-area .card-area .text-area .content p {
+  font-size: 14px;
+}
+
+.history-page .content-history-area .card-area {
+  padding-bottom: 60px;
+}
+/*# sourceMappingURL=history.css.map */

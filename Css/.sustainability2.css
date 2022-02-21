@@ -1,0 +1,35 @@
+.sustainability2-page .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.sustainability2-page .container-fluid .bg-image {
+  position: relative;
+  width: 100%;
+}
+
+.sustainability2-page .container-fluid .bg-image img {
+  max-width: 100%;
+}
+
+.sustainability2-page .cover-text-hist {
+  position: absolute;
+  top: -75px;
+}
+
+.sustainability2-page .cover-text-hist h3 {
+  color: white;
+}
+
+.sustainability2-page .content-sustainability2-area {
+  padding-top: 100px;
+}
+
+.sustainability2-page .content-sustainability2-area .image-text .image {
+  width: 100%;
+}
+
+.sustainability2-page .content-sustainability2-area .image-text .image img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=.sustainability2.css.map */

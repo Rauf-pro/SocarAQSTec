@@ -1,0 +1,109 @@
+
+.Mission-page{
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+        .bg-image{
+            position: relative;
+            width: 100%;
+            img{
+                max-width: 100%;
+
+            }
+        }
+    }
+    .cover-text-hist{
+        position: absolute;
+        top: -75px;
+        h3{
+            color: white;
+
+        }
+    }
+    .content-mission-area{
+        padding-top: 100px;
+        .card-mission-area{
+            background-color: #F7F7F7;
+            padding: 60px 140px;
+            .image{
+                padding-left: 60px;
+                padding-right: 60px;
+                img{
+                    width: 100%;
+    
+                }
+            }
+            .text-area{
+                text-align: center;
+    
+                .title{
+    
+                    h3{
+                        font-size: 20px;
+                        font-weight: 700;
+    
+                    }
+                }
+                .content{
+                    p{
+                        font-size: 16px;
+    
+                    }
+                }
+            }
+        }
+        .suptitle{
+            h3{
+    
+            }
+        }
+        .image-text{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 60px ;
+            .image{
+                padding-right: 20px;
+               
+                
+                img{
+                    max-width: 100%;
+    
+                }
+                
+    
+            }
+            .text{
+                
+    
+                p{
+        
+                }
+            }
+        }
+        .text-image{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 60px ;
+            .image{
+               
+                
+                img{
+                    max-width: 100%;
+    
+                }
+                
+    
+            }
+            .text{
+              
+    
+                p{
+        
+                }
+            }
+        }
+        
+    }
+}

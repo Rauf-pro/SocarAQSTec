@@ -1,0 +1,108 @@
+
+
+.news-page{
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+        .bg-image{
+            position: relative;
+            width: 100%;
+            img{
+                max-width: 100%;
+
+            }
+        }
+    }
+    .cover-text-hist{
+        position: absolute;
+        top: -75px;
+        h3{
+            color: white;
+
+        }
+    } 
+    .content-news-area{
+        .section-news{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            .cards{
+                h1{
+                    padding-bottom: 20px;
+    
+                }
+                .card{
+                    margin-bottom: 40px;
+                    .card-image{
+                        img{
+                            max-width: 100%;
+    
+                        }
+                    }
+                    .card-body{
+                        padding: 15px;
+                        padding-right: 20px;
+                        .title{
+                            padding-bottom: 15px;
+                            a{
+                                h3{
+                                    font-size: 20px;
+        
+                                }
+                            }
+                           
+                        }
+                        .content{
+                            p{
+    
+                            }
+                        }
+                        .card-foot{
+                            display: flex;
+                            justify-content: space-between;
+                            .news-date{
+                                
+    
+                            }
+                            .button-text{
+                                cursor: pointer;
+                                a{
+                                    cursor: pointer;
+                                    color: black;
+                                }
+                                span{
+                                   
+                                    i{
+    
+                                    }
+                                }
+                                
+                                
+                                
+                            }
+                        }
+                    }
+                }
+                .pagination{
+                    display: flex;
+                    justify-content: end;
+                    border: none;
+                    .page-item{
+                        border: none;
+                        .page-link{
+                            border: none;
+                            color: black;
+
+                        }
+                        
+                            
+                            i{
+
+                            }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}

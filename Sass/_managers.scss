@@ -1,0 +1,49 @@
+
+
+
+.Managers-page{
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+        .bg-image{
+            position: relative;
+            width: 100%;
+            img{
+                max-width: 100%;
+
+            }
+        }
+    }
+    .cover-text-hist{
+        position: absolute;
+        top: -75px;
+        h3{
+            color: white;
+
+        }
+    }
+    .content-managers-area{
+        padding-top: 100px;
+        .card-managers-area{
+            .image{
+                img{
+                    max-width: 100%;
+
+                }
+            }
+            .text{
+                .fullname{
+                    h3{
+                        font-size: 18px;
+
+                    }
+                }
+                .position{
+                    p{
+
+                    }
+                }
+            }
+        }
+    }
+}

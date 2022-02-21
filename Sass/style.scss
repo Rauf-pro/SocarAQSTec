@@ -1,0 +1,48 @@
+@import url('icofont.min.css');
+
+
+@import "home";
+@import "responsive";
+@import "about";
+@import "history";
+@import "mission";
+@import "supervisory";
+@import "managers";
+@import "managers-detail";
+@import "services";
+@import "devices";
+@import "projects";
+@import "sustainability1";
+@import "sustainability2";
+@import "sustainability3";
+@import "sustainability4";
+@import "sustainability5";
+@import "news";
+@import "newsdetail";
+@import "mediapublication";
+@import "mediapublicationfolder";
+@import "mediaphoto";
+@import "mediaphotoinn";
+@import "mediaphotoinn-detail";
+
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+//Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.7em;
+}
+

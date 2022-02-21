@@ -1,0 +1,375 @@
+
+header{
+    .header-upper{
+        padding-top: 30px;
+        .logo{
+            span{
+                font-size: 20px;
+                font-weight: 700;
+    
+            }
+        }
+        .navbar-area{
+            .nav-head{
+                display: flex;
+                justify-content: flex-end;
+                li{
+                    list-style-type: none;
+                    margin-right: 20px;
+                }
+                .link-1{
+                    position: relative;
+                  
+                    &:hover .dropdown-1{
+                          visibility: visible;
+                          opacity: 1;
+                    }
+                    .dropdown-1{
+                        position: absolute;
+                        background-color: white;
+                        right: 0;
+                        width: 200px;
+                        z-index: 1;
+                        padding-bottom: 15px;
+                        padding-top: 15px;
+                       opacity: 0;
+                       visibility: hidden;
+                       transition: all 0.3s linear;
+                        
+                        .link-2{
+                            margin: 0;
+                            &:hover .dropdown-2{
+                               visibility: visible;
+                               opacity: 1;
+                            }
+                           
+                            .dropdown-2{
+                                position: absolute;
+                                right: -200px;
+                                bottom: -37px;
+                                width: 200px;
+                                background-color: white;
+                                z-index: 1;
+                                padding-bottom: 15px;
+                                padding-top: 15px;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: all 0.3s linear;
+                              
+
+                                li{
+                                    a{
+                                       
+                                    }
+                                }
+    
+                            }
+                            a{
+                                .right-angle{
+                                    margin-left: 70px;
+                                    i{
+                                       
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+        .icons{
+            a{
+                margin-right: 15px;
+                i{
+
+                }
+            }
+        }
+
+    }
+    #carousel-demo{
+        .carousel-indicators{
+            li{
+
+            }
+        }
+        .carousel-inner{
+            height: 500px;
+            .item{
+                img{
+                    width: 100%;
+                }
+                .carousel-caption{
+                    
+                    h3{
+
+                    }
+                    p{
+
+                    }
+                }
+            }
+        }
+        .right{
+            transform: rotate(180deg);
+            left: 0;
+            span{
+                top: 20px;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    
+}
+main{
+    
+    // -----------News section-----------
+    .section-news{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .cards{
+            h1{
+                padding-bottom: 20px;
+
+            }
+            .card{
+                .card-image{
+                    img{
+                        max-width: 100%;
+
+                    }
+                }
+                .card-body{
+                    padding: 15px;
+                    padding-right: 20px;
+                    .title{
+                        padding-bottom: 15px;
+                        h3{
+                            font-size: 20px;
+
+                        }
+                    }
+                    .content{
+                        p{
+
+                        }
+                    }
+                    .card-foot{
+                        display: flex;
+                        justify-content: space-between;
+                        .news-date{
+                            
+
+                        }
+                        .button-text{
+                            cursor: pointer;
+                            a{
+                                cursor: pointer;
+                                color: black;
+                            }
+                            span{
+                               
+                                i{
+
+                                }
+                            }
+                            
+                            
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+   // -----------Aboutus section-----------
+    .section-aboutus{
+        background-color: rgb(230, 230, 230);
+        
+        .video-text{
+            padding: 30px 100px;
+            .video-file{
+           
+                iframe{
+                    max-width: 100%;
+    
+                }
+            }
+            .right-text{
+                .title{
+                    h1{
+    
+                    }
+                }
+                .content{
+    
+                    .content-2{
+                        padding-top: 50px;
+    
+                    }
+                    .button-text{
+                        padding-top: 40px;
+                        a{
+    
+                        }
+                        i{
+    
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    //--------------History section--------------
+    .section-history{
+        padding-bottom: 100px;
+        padding-top: 100px;
+       
+        h1{
+
+        }
+        .years{
+            
+            h3{
+                padding-bottom: 30px;
+                font-size: 18px;
+
+            }
+            .title{
+                h4{
+
+                }
+            }
+            .content{
+                
+                p{
+
+                }
+            }
+        }
+       
+    }
+    .slide-header{
+        
+      .header-icon{
+          display: flex;
+          justify-content: space-between;
+        .head-title{
+            h2{
+
+            }
+        }
+        .slide-icon{
+
+        }
+      }
+       
+    }
+    .section-slide{
+        background-color: gray;
+        padding: 40px;
+        .card-slide{
+            display: flex;
+            background-color: white;
+            padding: 30px 20px;
+            .image{
+                margin-right: 20px;
+                img{
+                    width: 234px;
+                    height: 269px;
+
+                }
+            }
+            .right-text{
+                h3{
+                    font-size: 20px;
+                    margin-bottom: 20px;
+
+                }
+                p{
+                    font-size: 16px;
+                    padding-bottom: 70px;
+
+                }
+                .button-text{
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+ background-color: #929292;
+ margin-top: 70px;
+ padding: 63px;
+ 
+ .footer-up{
+     padding-bottom: 20px;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+     display: flex;
+     
+     .logo{
+         margin-top: -21px;
+         
+
+         img{
+             max-width: 100%;
+             color: white;
+         }
+     }
+     .footer-nav{
+         display: flex;
+         justify-content: flex-end;
+         ul{
+             display: flex;
+             list-style-type: none;
+             li{
+                 font-size: 16px;
+                 margin-right: 15px;
+                 
+                 
+                 a{
+                    color:  #FFFFFF;
+                     
+                 }
+             }
+         }
+     }
+ }
+ .footer-down{
+     
+     justify-content: flex-end;
+     padding-top: 15px;
+     .year{
+         small{
+             color: white;
+
+         }
+     }
+     .social{
+         display: flex;
+         justify-content: flex-end;
+         ul{
+             display: flex;
+             list-style-type: none;
+             li{
+                 margin-right: 15px;
+                 a{
+                     color: white;
+                
+                     i{
+
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+}

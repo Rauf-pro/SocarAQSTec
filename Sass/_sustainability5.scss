@@ -1,0 +1,54 @@
+
+
+.sustainability5-page{
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+        .bg-image{
+            position: relative;
+            width: 100%;
+            img{
+                max-width: 100%;
+
+            }
+        }
+    }
+    .cover-text-hist{
+        position: absolute;
+        top: -105px;
+        h3{
+            color: white;
+
+        }
+    } 
+    .content-sustainability5-area{
+        padding-top: 100px;
+        .image-text{
+            .image{
+                width: 100%;
+                img{
+                    max-width: 100%;
+                    height: 430px;
+                }
+            }
+            .right-text{
+                line-height: 1.2;
+                p{
+
+                }
+                .pdf-download{
+                    padding-top: 30px;
+                   a{
+                       text-decoration: underline;
+                       i{
+                           padding-right: 10px;
+
+                       }
+                   }
+                }
+            }
+        }
+        
+    }
+
+}
