@@ -77,6 +77,11 @@ header .header-upper .icons a {
   margin-right: 15px;
 }
 
+header .header-upper .icons #language {
+  border: none;
+  cursor: pointer;
+}
+
 header #carousel-demo .carousel-inner {
   height: 500px;
 }
